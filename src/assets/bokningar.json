@@ -1,0 +1,74 @@
+[ 
+    {
+        "id": "1",
+        "datum": "2022-05-22",
+        "tid": "09:00",
+        "kund": "Olof",
+        "level": "Diamant",
+        "cleaner": "Bodil",
+        "status": false
+    },
+    {
+        "id": "2",
+        "datum": "2023-02-15",
+        "tid": "14:30",
+        "kund": "Olof",
+        "level": "Fönstertvätt",
+        "cleaner": "Anita",
+        "status": true
+    },
+    {
+        "id": "3",
+        "datum": "2023-03-09",
+        "tid": "08:00",
+        "kund": "Olof",
+        "level": "Basic",
+        "cleaner": "Bodil",
+        "status": true
+    },
+    {
+        "id": "4",
+        "datum": "2022-12-05",
+        "tid": "09:30",
+        "kund": "Olof",
+        "level": "Basic",
+        "cleaner": "Anita",
+        "status": false
+    },
+    {
+        "id": "5",
+        "datum": "2023-04-01",
+        "tid": "10:00",
+        "kund": "Olof",
+        "level": "Diamant",
+        "cleaner": "Sture",
+        "status": true
+    },
+    {
+        "id": "6",
+        "datum": "2022-06-27",
+        "tid": "14:30",
+        "kund": "Olof",
+        "level": "Fönstertvätt",
+        "cleaner": "Bodil",
+        "status": false
+    },
+    {
+        "id": "7",
+        "datum": "2023-05-22",
+        "tid": "09:30",
+        "kund": "Olof",
+        "level": "Diamant",
+        "cleaner": "Sture",
+        "status": true
+    },
+    {
+        "id": "8",
+        "datum": "2022-01-03",
+        "tid": "14:00",
+        "kund": "Olof",
+        "level": "Basic",
+        "cleaner": "Anita",
+        "status": false
+    }
+]

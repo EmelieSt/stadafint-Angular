@@ -1,0 +1,38 @@
+.bild2 {
+    background-image: url("https://images.dwell.com/photos-6288160506043158528/6550058655060606976-large/taking-full-advantage-of-sweeping-views-of-puget-sound-hillside-sanctuary-by-hoedemaker-pfieffer-is-sited-on-a-small-plateau-high-atop-a-steeply-sloping-hillside-winter-light-penetrates-deep-into-the-living-spaces-through-a-wall-of-glass-that-runs-continu.jpg");
+    background-color: #444444;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin: auto;
+    padding: 30px;
+    
+}
+
+.info-block{
+    padding: 10px;
+}
+
+img{
+   display: flex;
+   justify-content: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;    
+}
+p{
+    padding: 5px;
+}
+
+.inledning{
+    font-weight: 500;
+}

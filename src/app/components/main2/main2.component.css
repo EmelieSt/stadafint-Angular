@@ -1,0 +1,71 @@
+* {
+    width: auto;
+
+
+}
+h1{
+    font-size: 52px;
+    font-weight: 400;
+    color:rgb(188, 209, 209);
+    border-bottom: 3px solid rgb(157, 201, 250);;
+    border-top: 3px solid rgb(157, 201, 250);; 
+}
+
+.bookings {
+
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 130px;
+    padding: 30px;
+    border-radius: 5px;
+
+
+}
+
+.radio-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tid {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 34px;
+  }
+
+
+#date,
+#time,
+#städare-dropdown {
+    width: 150px;
+    padding: 10px;
+
+}
+
+.bokknappen {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.bild3 {
+    background-image: url("https://hoedemakerpfeiffer.com/uploads/2019-01-29/212599636/1044296691large.jpg");
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -16px;
+    background-color: #444444;
+    background-blend-mode: overlay;
+
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

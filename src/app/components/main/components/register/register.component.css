@@ -1,0 +1,68 @@
+.text-box-medlem{
+    padding: 70px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    height: auto;
+}
+
+.text-box-medlem form{
+    max-width: 1400px;
+    margin: 0 auto;
+    column-gap: 40px;
+}
+
+.text-box-medlem input{
+    font-size: 16px;
+    height: 70px;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+}
+
+.form-columns{
+    column-count: auto;
+    column-width: 340px;
+}
+
+
+.text-box-medlem h4{
+    font-size: 32px;
+    text-align: center;
+}
+
+.text-box-medlem .name, .number, .email, .org-nr, .password{
+    display: flex;
+    flex-direction: column;
+}
+
+.private-company span{
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+.private-company label{
+    margin-left: 8px;
+}
+
+
+
+.bild1 {
+    background-image: url("https://images.dwell.com/photos-6288160506043158528/6550058655060606976-large/taking-full-advantage-of-sweeping-views-of-puget-sound-hillside-sanctuary-by-hoedemaker-pfieffer-is-sited-on-a-small-plateau-high-atop-a-steeply-sloping-hillside-winter-light-penetrates-deep-into-the-living-spaces-through-a-wall-of-glass-that-runs-continu.jpg");
+    background-color: #444444;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+.bild2 {
+    background-image: url("https://images.dwell.com/photos-6288160506043158528/6550058655060606976-large/taking-full-advantage-of-sweeping-views-of-puget-sound-hillside-sanctuary-by-hoedemaker-pfieffer-is-sited-on-a-small-plateau-high-atop-a-steeply-sloping-hillside-winter-light-penetrates-deep-into-the-living-spaces-through-a-wall-of-glass-that-runs-continu.jpg");
+    background-color: #444444;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    height: 700px;
+    background-attachment: fixed;
+}

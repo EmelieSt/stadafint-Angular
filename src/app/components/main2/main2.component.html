@@ -1,0 +1,49 @@
+<div class="bild3">
+
+    <h1>Välkommen Olof!</h1>
+    
+    <div class="bookings">
+
+        <h2>Mina Bokningar:</h2>
+       
+        <div class="boknings-input"> 
+            <form (ngSubmit)="addBokning(form.value)" #form="ngForm">
+
+                <label for="nivå">VÄLJ UTFÖRANDE: </label>
+
+            <div>
+                 <label for="Basic">  Basic: </label>
+                <input type="radio" name="level" value="Basic" [(ngModel)]="bokning.level">
+                
+                <label for="Topp">  Topp: </label>
+                <input type="radio" name="level" value="Topp" [(ngModel)]="bokning.level">
+                
+                <label for="Diamant">  Diamant: </label>
+                <input type="radio" name="level" value="Diamant"  [(ngModel)]="bokning.level">
+
+                <label for="Fönstertvätt">  Fönstertvätt: </label>
+                <input type="radio" name="level" value="Fönstertvätt" [(ngModel)]="bokning.level">
+
+            </div>
+               
+                <label for="datetime-local">Datum: </label>
+                <input type="date" name="datum" id="datum" [(ngModel)]="bokning.datum">
+
+                <label for="datetime-local">Tid: </label>
+                <input type="time" name="tid" id="tid" [(ngModel)]="bokning.tid">
+
+                <label for="clean">Städare: </label>
+                <select name="cleaner" id="cleaner" [(ngModel)]="bokning.cleaner">
+                    <option value="Bodil">Bodil</option>
+                    <option value="Sture">Sture</option>
+                    <option value="Anita">Anita</option>
+                </select>
+
+                <button type="submit">Boka!</button>
+            </form> 
+          
+            <app-list [bokadArr]="bokadArr" [utfordArr]="utfordArr"></app-list>
+        </div>
+    </div>    
+</div>    
+

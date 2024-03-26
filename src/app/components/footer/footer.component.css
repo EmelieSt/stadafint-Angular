@@ -1,0 +1,50 @@
+footer {
+    grid-area: footer;
+    background-color: rgb(57, 64, 71);
+    align-items: stretch;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  footer h3 {
+    padding: 5px;
+    border-bottom: 0.5px solid #ffffff;
+  }
+  
+  footer nav {
+    grid-area: footernav;
+    background-color: #4a5357;
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul a {
+    display: flex;
+    color: black;
+    font-size: 16px;
+
+  }
+
+  ul a img {
+    padding: 2px;
+    width: 30px;
+  }
+  
+  footer h1 {
+    display: flex;
+  
+    justify-content: center;
+  }
+  
+  footer p {
+    display: flex;
+  
+    justify-content: center;
+  }
+  

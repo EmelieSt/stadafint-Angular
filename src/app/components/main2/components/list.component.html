@@ -1,0 +1,29 @@
+<div class="bokad">
+  
+    <h3>Bokade städningar</h3>
+ 
+  
+  <ul>
+    <li *ngFor="let x of bokadArr">
+        {{x.level}}
+        {{x.cleaner}}
+        {{x.datum}}  
+        {{x.tid}} 
+        <img src="/assets/trash.png" alt="trash"(click)="removeBook(x)">
+    </li>
+  </ul>
+</div>
+
+<div class="utförd">
+  <h3>Utförda städningar</h3>
+  <ul>
+    <li *ngFor="let x of utfordArr">
+        {{x.level}}
+        {{x.cleaner}}
+        {{x.datum}}  
+        {{x.tid}}
+        <input type="checkbox" [(ngModel)]="x.status" (change)="CheckboxChange(x)">      
+      </li>
+     <button (click)="removeBtn()">Ta bort genomförda bokningar</button>
+   </ul>
+</div>

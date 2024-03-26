@@ -1,0 +1,50 @@
+<div class="bild1"></div>
+<div class="bild2">
+    <div class="text-box-medlem">
+    <h4>Bli medlem</h4>
+   
+    <form>
+        <div class="private-company">
+            <span>
+                <input type="radio" name="check" id="private" value="private">
+                <label for="private">Privatperson</label>
+            </span>
+
+            <span>
+            <input type="radio" name="check" id="company" value="company">
+            <label for="company">Företag</label>
+            </span>
+        
+        </div>
+
+        <div class="form-columns">
+    
+        <div class="name">
+            <label for="name">Namn*</label>
+            <input name="name" type="text" id="name" placeholder="Ange ditt namn eller företagsnamn" autocomplete="name" required>
+        </div>
+    
+        <div class="number">
+            <label for="tel">Telefonnummer*</label>
+            <input name="tel" type="text" id="tel" placeholder="Ange ditt mobilnummer" autocomplete="mobile" required>
+    
+        </div>
+        <div class="org-nr">
+            <label for="org.nr">Org. nummer</label>
+            <input name="org.nr" type="text" placeholder="Ange ditt organisationsnummer" id="org.nr" >
+         </div> 
+    <div class="email">
+        <label for="email">E-mail*</label>
+        <input name="email" type="email" id="email" placeholder="Ange din e-postadress" autocomplete="email" required>
+     </div>
+
+
+ <div class="password">
+    <label for="password">Lösenord</label>
+    <input name="password" type="password" id="password" placeholder="lösenord" autocomplete="new-password" required>
+ </div> 
+
+    <app-button text="Registrera"></app-button>
+</div>
+    </form>
+</div>
